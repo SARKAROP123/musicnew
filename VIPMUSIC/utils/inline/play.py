@@ -70,7 +70,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="𝗢𝗪𝗡𝗘𝗥",
 
-                url=f"t.me/{OWNER_USERNAME}",
+                url=f"t.me/{SUPPORT_CHAT}",
 
             ),
             InlineKeyboardButton(
@@ -99,7 +99,7 @@ def stream_markup(_, chat_id):
 
                 text="𝗢𝗪𝗡𝗘𝗥",
 
-                url=f"t.me/{OWNER_USERNAME}",
+                url=f"t.me/{SUPPORT_CHAT}",
 
             ),
             InlineKeyboardButton(
@@ -120,11 +120,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"DAXXPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"VIPPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"DAXXPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"VIPPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
