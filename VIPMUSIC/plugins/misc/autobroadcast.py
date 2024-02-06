@@ -49,8 +49,8 @@ async def continuous_broadcast():
     while True:
         await send_message_to_chats()
 
-        # Wait for 500 seconds before next broadcast
-        await asyncio.sleep(500)
+        # Wait for 1000 seconds before next broadcast
+        await asyncio.sleep(1000)
 
 # Start the continuous broadcast loop if AUTO_BROADCAST is True
 if AUTO_GCASTS:  
