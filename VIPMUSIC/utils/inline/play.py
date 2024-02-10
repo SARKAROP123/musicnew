@@ -26,12 +26,12 @@ def track_markup(_, videoid, user_id, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(text="Replay", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="End", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="Rᴇᴘʟᴀʏ", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="Eɴᴅ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
-                text="Next",
+                text="🫧Nᴇxᴛ🫧",
                 callback_data=f"Piyush"
             ),
         ],
@@ -84,7 +84,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="Next",
+                text="🫧Nᴇxᴛ🫧",
                 callback_data=f"Piyush"
             ),
         ],
@@ -120,7 +120,7 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="Next",
+                text="🫧Nᴇxᴛ🫧",
                 callback_data=f"Piyush"
             ),
         ],
@@ -225,7 +225,7 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text= "Next",
+                text="🫧Nᴇxᴛ🫧",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -264,7 +264,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="Next",
+                text="Nᴇxᴛ",
                 callback_data=f"Piyush"
             ),
         ],
