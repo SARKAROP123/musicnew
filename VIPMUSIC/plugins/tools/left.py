@@ -112,7 +112,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
             # User doesn't have a profile photo, use random_photo directly
             welcome_photo = random.choice(random_photo)
 
-        caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
+        caption = f"**#🥵𝐓𝐡𝐢𝐬_𝐏𝐞𝐫𝐬𝐨𝐧_𝐃𝐢𝐞𝐝🥵**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
         button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
 
         # Generate a deep link to open the user's profile
